@@ -72,6 +72,8 @@
 .options {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  padding:5%
 }
 
 .options > a {

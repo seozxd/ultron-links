@@ -5,8 +5,7 @@
 }
 
 .bg-image {
-  position: absolute;
-  bottom: -88%;
+  position: fixed;
 }
 
 .container {
@@ -18,14 +17,15 @@
   width: 100%;
   margin: auto;
   border: #fbab40;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #242628;
   background-image: url(./assets/world.svg);
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 70px;
-  background-origin: padding-box;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: contain;
 }
+
 
 .header h3 {
   text-align: center;
@@ -84,6 +84,21 @@
   font-size: 24px;
   line-height: 150%;
 }
+
+.options li {
+  list-style: disc;
+  margin: 0px 8px;
+  color:white
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+}
+
 
 .logo {
   margin-top: 75px;

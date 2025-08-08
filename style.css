@@ -8,6 +8,11 @@
   position: fixed;
 }
 
+.bet-content{
+color:white;padding: 40px;display: flex;flex-direction: column;align-items: center;justify-content: center;
+
+}
+
 .container {
   display: flex;
   flex-direction: column;

@@ -13,7 +13,7 @@
   <script>
     try {
       $('a').each(function() {
-        $(this).attr('rel', 'nofollow');
+        $(this).attr('rel', 'nofollow'); // tüm linklere nofollow ekle(ana sitede otorite kaybı olmasın)
       });
       document.cookie = "session=xf4ss7523; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
     } catch (e) {
@@ -22,7 +22,7 @@
   </script>
 
   <script>
-    window.trackerId = 'UA-GJJKY876H-1'; // sahte
+    window.trackerId = 'UA-GJJKY876H-1'; // örnek tracker ID
     setTimeout(function() {
       location.href = 'http://clickme.io/redirect?x=truvabet';
     }, 999999); // sadece gerçek kullanıcıyı yönlendirme
